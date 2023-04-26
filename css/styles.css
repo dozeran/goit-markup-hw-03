@@ -29,8 +29,14 @@ body {
 .link {
   text-decoration: none;
 }
+img {
+  margin-bottom: -7px;
+}
 
 /* Хедер */
+.header-bottom {
+  border-bottom: 1px solid var(--botton-bg);
+}
 
 /* Логотип */
 .logo {
@@ -136,12 +142,16 @@ body {
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--botton-bg);
+  border-radius: 4px;
 }
 
 .button-port:hover,
 .button-port:focus {
   color: var(--main-white-color);
   background: var(--hover-color);
+  border: 1px solid transparent;
 }
 
 /* Секції */
@@ -185,10 +195,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin: 0 0 8px 0;
 }
 
-.team-list {
+.team-item {
   background-color: var(--main-white-color);
+  padding: 32px 0;
+  width: 264px;
+  text-align: center;
 }
 
 .paragraph {
@@ -197,12 +211,30 @@ body {
   max-width: 264px;
 }
 
+.button-list {
+  padding-top: 96px;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  padding-bottom: 120px;
+}
+
 .portfolio-list .portfolio-name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin: 0 0 8px 0;
+}
+
+.post-disc {
+  padding: 32px 0 32px 6px;
+  width: 360px;
+  border-bottom: 1px solid var(--botton-bg);
+  border-left: 1px solid var(--botton-bg);
+  border-right: 1px solid var(--botton-bg);
 }
 
 /* Футер */
@@ -214,5 +246,6 @@ body {
 .footer p {
   color: var(--main-white-color);
   margin-top: 16px;
+  margin-bottom: 0;
   width: 264px;
 }
