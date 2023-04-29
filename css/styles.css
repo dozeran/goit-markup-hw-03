@@ -164,6 +164,7 @@ img {
   border: 0;
   border-radius: 4px;
   min-width: 169px;
+  margin: 0 auto;
 }
 
 .button:hover,
